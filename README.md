@@ -24,7 +24,7 @@ La commande suivante sert a faire les corrections necessaire dans le cas d'un no
 
 > npm audit fix
 
-A cette etape l'application s'executera sur une nouvelle page du navigateur et 
+A cette etape l'application s'executera sur une nouvelle page du navigateur et la recherche peut commencer en selectionnant une cryptomonnaie et une monnais ainsi que les recurrences de recherche (daily...etc),le resultat s'affiche par la suite selon le nombre de jours de recherche demandés
 
 ---
 
