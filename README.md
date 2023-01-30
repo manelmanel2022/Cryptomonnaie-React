@@ -18,7 +18,9 @@
 # Description
 Nous avons opté pour l’api CoinGecko (API publique principalement utilisée pour les tests et les loisirs non commerciaux) qui fournit les données cryptographiques les plus complètes et les plus fiables via les points de terminaison RESTful JSON. Des milliers de projets avant-gardistes, de développeurs Web3, de chercheurs, d'institutions et d'entreprises utilisent cette API pour obtenir des flux de prix, des données de marché, des métadonnées et des données historiques sur les actifs cryptographiques, les NFT et les échanges.
 
-Dans notre interface nous avons choisis d'afficher  le prix historique et les données du marché d'une monnaie selectionnée ainsi que sa capitalisation boursiére comparé a la cryptomonnaie choisis.
+Dans notre interface nous avons choisis d'implementer deux differents composants et ainsi deux end points:      
+Le premier sert a afficher  le prix historique et les données du marché d'une monnaie selectionnée ainsi que sa capitalisation boursiére comparé a la cryptomonnaie choisis.  
+Le deuxieme sert a afficher la valeure totale des actions d'une cryptomonnaie ainsi que toutes les compagnies actionnaires (avec toutes leurs donnés) dans la cryptomonnaie selectionnée
  
 # Installation
 
@@ -42,7 +44,7 @@ A cette etape l'application s'executera sur une nouvelle page du navigateur et l
 
 #### API Reference
 https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=1
-
+https://api.coingecko.com/api/v3/companies/public_treasury/bitcoin
 
 
 
