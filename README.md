@@ -12,6 +12,7 @@
 - [Installation ](#installation)
 - [API-Reference](#api-reference)
 - [Membres-du-groupe](#membres-du-groupe)
+- [Definition des entetes des resultats de  notre API](#definition-des-entetes-des-resultats-de-notre-api)
 
 
 ---
@@ -21,6 +22,19 @@ Nous avons opté pour l’api CoinGecko (API publique principalement utilisée p
 Dans notre interface nous avons choisis d'implementer deux differents composants et ainsi deux end points:      
 Le premier sert a afficher  le prix historique et les données du marché d'une monnaie selectionnée ainsi que sa capitalisation boursiére comparé a la cryptomonnaie choisis.  
 Le deuxieme sert a afficher la valeure totale des actions d'une cryptomonnaie ainsi que toutes les compagnies actionnaires (avec toutes leurs donnés) dans la cryptomonnaie selectionnée
+
+# Definition des entetes des resultats de  notre API
+
+> Bitcoin Dominance: est une mesure de la part ou du taux de la capitalisation 
+boursière totale des crypto-monnaies composée de Bitcoin.
+-->La capitalisation boursière: fait référence à la valeur totale des actions ordinaires et privilégiées en circulation d’une société cotée en bourse sur le marché libre.                                                                   
+Les sociétés cotées en bourse sont inscrites à une bourse publique.Voici la formule pour calculer la capitalisation boursière:                       
+**(Nombre d’actions ordinaires x prix du marché) + (nombre d’actions privilégiées x prix du marché) Dans ce calcul, on inclut uniquement les actions autorisées et émises.                                                  
+->La valeur marchande des actions d’une entreprise s’avère souvent beaucoup plus élevée que la «valeur comptable» indiquée dans le bilan de la société. 
+La valeur comptable indique la valeur lors de l’émission des actions.                                                
+->le volume totale mesure l'intensité et le degré d'importance ou le pourcentage des tendances sur le marché d'une crypto monnaie par rapport à une dévise.            
+-> Volume 24h : C'est le montant total de la crypto-monnaie dans une dévise donnée qui a circulé dans un laps de temps de 24h.                           
+En d'autres termes, c'est le total des ordres de ventes et achats qui ont été reccueillis dans l'intervalle de 24h dans un devise donnée                  
  
 # Installation
 
