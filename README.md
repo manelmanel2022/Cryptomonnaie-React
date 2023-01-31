@@ -1,74 +1,70 @@
- # Cryptomonnaie-React     
+# Getting Started with Create React App
 
-                                                        @@ Crypto-Monnaie /REACT @@
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Project Image](https://masterthecrypto.com/wp-content/uploads/2019/11/Coingecko.jpg)
+## Available Scripts
 
+In the project directory, you can run:
 
+### `npm start`
 
-### Sommaire
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- [Description](#description)
-- [Definition des entetes des resultats de  notre API](#definition-des-entetes-des-resultats-de-notre-api)
-- [Installation ](#installation)
-- [API-Reference](#api-reference)
-- [Membres-du-groupe](#membres-du-groupe)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
-# Description
-Nous avons opté pour l’api CoinGecko (API publique principalement utilisée pour les tests et les loisirs non commerciaux) qui fournit les données cryptographiques les plus complètes et les plus fiables via les points de terminaison RESTful JSON. Des milliers de projets avant-gardistes, de développeurs Web3, de chercheurs, d'institutions et d'entreprises utilisent cette API pour obtenir des flux de prix, des données de marché, des métadonnées et des données historiques sur les actifs cryptographiques, les NFT et les échanges.
+### `npm run build`
 
-Dans notre interface nous avons choisis d'implementer deux differents composants et ainsi deux end points:      
-Le premier sert a afficher  le prix historique et les données du marché d'une monnaie selectionnée ainsi que sa capitalisation boursiére comparé a la cryptomonnaie choisis.  
-Le deuxieme sert a afficher la valeure totale des actions d'une cryptomonnaie ainsi que toutes les compagnies actionnaires (avec toutes leurs donnés) dans la cryptomonnaie selectionnée
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# Definition des entetes des resultats de  notre API
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-> Bitcoin Dominance: est une mesure de la part ou du taux de la capitalisation 
-boursière totale des crypto-monnaies composée de Bitcoin.
--->La capitalisation boursière: fait référence à la valeur totale des actions ordinaires et privilégiées en circulation d’une société cotée en bourse sur le marché libre.                                                                   
-Les sociétés cotées en bourse sont inscrites à une bourse publique.Voici la formule pour calculer la capitalisation boursière:                       
-**(Nombre d’actions ordinaires x prix du marché) + (nombre d’actions privilégiées x prix du marché) Dans ce calcul, on inclut uniquement les actions autorisées et émises.                                                  
-->La valeur marchande des actions d’une entreprise s’avère souvent beaucoup plus élevée que la «valeur comptable» indiquée dans le bilan de la société. 
-La valeur comptable indique la valeur lors de l’émission des actions.                                                
-->le volume totale mesure l'intensité et le degré d'importance ou le pourcentage des tendances sur le marché d'une crypto monnaie par rapport à une dévise.            
--> Volume 24h : C'est le montant total de la crypto-monnaie dans une dévise donnée qui a circulé dans un laps de temps de 24h.                           
-En d'autres termes, c'est le total des ordres de ventes et achats qui ont été reccueillis dans l'intervalle de 24h dans un devise donnée                  
- 
-# Installation
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-L'installation d'une version recente de visual studion code est necessaire afin de faire fonctionner notre application.
-Dans un premier temps il faut Telecharger notre dossier de projet et l'ouvrir dans VSCode,ouvrir le terminal et tapez la commande suivante :
+### `npm run eject`
 
-> npm install
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Puis la commande suivante 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-> npm start
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-La commande suivante sert a faire les corrections necessaire dans le cas d'un nombre important de vulnerabilités
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-> npm audit fix
+## Learn More
 
-A cette etape l'application s'executera sur une nouvelle page du navigateur et la recherche peut commencer en selectionnant une cryptomonnaie et une monnais ainsi que les recurrences de recherche (daily...etc),le resultat s'affiche par la suite selon le nombre de jours de recherche demandés
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-#### API Reference
-https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=1
-https://api.coingecko.com/api/v3/companies/public_treasury/bitcoin
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-# Membres du groupe 
-- [Tchokouani Hugues](1231458@crosemont.qc.ca)
-- [Mallem Manel](6178168@crosemont.qc.ca)
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
-[Back To The Top](#cryptomonnaie-react)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
